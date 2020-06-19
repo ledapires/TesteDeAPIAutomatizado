@@ -18,8 +18,8 @@ public class LojinhaAPITest {
             .given()
             .contentType(ContentType.JSON)
             .body("{\n" +
-                    " \"usuariologin\": \"leda.pires\",\n" +
-                    " \"usuariosenha\": \"leda09\"\n" +
+                    " \"usuariologin\": \"\",\n" +
+                    " \"usuariosenha\": \"\"\n" +
                     "}")
             .when()
                  .post("login")
